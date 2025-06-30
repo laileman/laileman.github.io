@@ -1,5 +1,5 @@
 * [首页](/)
-* [关于](/about/)
+* [关于](about.md)
 * [prometheus](/prometheus/)
 * [kubernetes](/kubernetes/)
 * [docker](/docker/)

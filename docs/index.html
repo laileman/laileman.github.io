@@ -6,19 +6,59 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> -->
+ <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css">
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: '',
+      name: 'Leman\'s tech notes',
+      repo: 'laileman',
       loadSidebar: true,
-      subMaxLevel: 2
+      subMaxLevel: 2,
+      auto2top: true,
+      // loadNavbar: true,
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+    //  fallbackLanguages: ['en', 'cn'],
+     // coverpage: true,
+      homepage: 'README.md',
+      executeScript: true,
+      mergeNavbar: true,
+      topMargin: 90,
+      basePath: '/',
+      relativePath: true,
+      
+   
+    
+      auto2top: true,
+      autoHeader: true,
+      search: {
+        noData: {
+          '/': 'No Results!'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/': 'Search...'
+        },
+        maxAge: 86400000,
+        pathsOnly: true,
+        depth: 2
+      },
+      copyCode: {
+        buttonText: 'Copy to clipboard',
+        errorText: 'Error',
+        successText: 'Copied',
+      },
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Latest v2.x.x -->
+<script src="https://unpkg.com/docsify-copy-code@2"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
 </body>
 </html>
