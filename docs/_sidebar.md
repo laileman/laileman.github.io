@@ -1,6 +1,8 @@
 * [首页](/)
 * [关于](about.md)
 * [prometheus](/prometheus/)
+  * [prometheus](prometheus.md)
+  * [Alertmanager](alertmanager.md)
 * [kubernetes](/kubernetes/)
 * [docker](/docker/)
 * [python](/python/)

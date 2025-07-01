@@ -1,3 +1,0 @@
-- [prometheus](prometheus.md)
-- [Alertmaneger](alertmanager.md)
-- 
