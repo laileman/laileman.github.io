@@ -18,6 +18,6 @@
 - 支持自定义飞书告警@所有人
 - 支持自定义飞书告警@指定人
 
-## 
+
 ## 架构
 [filename](_image/lark-alert.drawio ':include :type=code')
