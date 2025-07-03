@@ -1,0 +1,66 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="第 1 页" id="WiQE_famRKFdeDkVkP7f">
+    <mxGraphModel dx="795" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JIc2J-42gg8Wrx1WN2a5-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JIc2J-42gg8Wrx1WN2a5-1" target="JIc2J-42gg8Wrx1WN2a5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIc2J-42gg8Wrx1WN2a5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JIc2J-42gg8Wrx1WN2a5-1" target="JIc2J-42gg8Wrx1WN2a5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIc2J-42gg8Wrx1WN2a5-13" value="获取值班信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JIc2J-42gg8Wrx1WN2a5-12">
+          <mxGeometry x="0.0545" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIc2J-42gg8Wrx1WN2a5-1" value="lart-alert" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIc2J-42gg8Wrx1WN2a5-2" value="alertmanager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="30" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIc2J-42gg8Wrx1WN2a5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="JIc2J-42gg8Wrx1WN2a5-2" target="JIc2J-42gg8Wrx1WN2a5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIc2J-42gg8Wrx1WN2a5-4" value="pagerduty" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIc2J-42gg8Wrx1WN2a5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="JIc2J-42gg8Wrx1WN2a5-4" target="JIc2J-42gg8Wrx1WN2a5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIc2J-42gg8Wrx1WN2a5-7" value="飞书群组" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIc2J-42gg8Wrx1WN2a5-9" value="webhook" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="198" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JIc2J-42gg8Wrx1WN2a5-10" value="webhook" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="328" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JIc2J-42gg8Wrx1WN2a5-11" value="飞书值班" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="300" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIc2J-42gg8Wrx1WN2a5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JIc2J-42gg8Wrx1WN2a5-7" target="JIc2J-42gg8Wrx1WN2a5-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="420" />
+              <mxPoint x="84" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIc2J-42gg8Wrx1WN2a5-16" value="api" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JIc2J-42gg8Wrx1WN2a5-15">
+          <mxGeometry x="-0.058" y="3" relative="1" as="geometry">
+            <mxPoint x="-87" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIc2J-42gg8Wrx1WN2a5-17" value="action: resolve/ack/note" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JIc2J-42gg8Wrx1WN2a5-15">
+          <mxGeometry x="-0.8953" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

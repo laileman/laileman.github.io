@@ -8,8 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> -->
  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css">
+ <link rel="stylesheet" href="//vox.cab/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
 </head>
 <body>
+  overflow: auto;
   <div id="app"></div>
   <script>
     window.$docsify = {
@@ -18,8 +20,8 @@
       loadSidebar: true,
       subMaxLevel: 4,
       auto2top: true,
-      // loadNavbar: true,
-      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      loadNavbar: true,
+     
     //  fallbackLanguages: ['en', 'cn'],
      // coverpage: true,
       homepage: 'README.md',
@@ -28,8 +30,7 @@
       topMargin: 90,
       basePath: '/',
       relativePath: true,
-      
-   
+      loadNavbar: true,
     
       auto2top: true,
       autoHeader: true,
@@ -45,14 +46,35 @@
         pathsOnly: true,
         depth: 2
       },
+      // docsify-copy-code (defaults)
       copyCode: {
         buttonText: 'Copy to clipboard',
         errorText: 'Error',
         successText: 'Copied',
       },
+      // logo: 'https://docsify.js.org/_media/icon.svg',
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
       },
+      sidebarDisplayLevel: 2,
+      onlyCover: true,
+      // 字数插件
+            count:{
+                countable: true,
+                position: 'top',
+                margin: '10px',
+                float: 'right',
+                fontsize:'0.9em',
+                color:'rgb(90,90,90)',
+                language:'chinese',
+                localization: {
+                    words: "",
+                    minute: ""
+                },
+                isExpected: true
+            },
+      sidebarDisplayLevel: 1,
+        
     }
   </script>
   <!-- Docsify v4 -->
@@ -61,5 +83,15 @@
   <!-- Latest v2.x.x -->
   <script src="https://unpkg.com/docsify-copy-code@2"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <!-- 侧边栏扩展与折叠 -->
+  <script src="//vox.cab/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
+
+    -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+
+  <script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
+  <script src='//cdn.jsdelivr.net/npm/drawcsify@latest'></script>
 </body>
 </html>
