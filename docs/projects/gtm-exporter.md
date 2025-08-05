@@ -1,5 +1,5 @@
 # gtm-exporter
-> 目的： 将日志中的gtm信息导出成metrics, 用于监控gtm的运行状态
+> 目的： 将日志中的gtm信息暴露成metrics, 用于监控gtm的运行状态和进行数据分析
 
 ## 架构
 [filename](_image/gtm-exporter.drawio ':include :type=code')
