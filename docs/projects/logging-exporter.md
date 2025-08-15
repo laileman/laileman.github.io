@@ -23,7 +23,6 @@ Logging Exporter 是一个将日志数据转换为 Prometheus 可识别的 metri
 2. 启动服务，监听指定端口
 3. Prometheus 配置抓取该服务的 metrics 接口
 
-
 ## 架构
 
 [filename](_image/logging-exporter.drawio ':include :type=code')
