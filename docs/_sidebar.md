@@ -3,5 +3,6 @@
   - [unified messaging center](/projects/unified-messaging-center.md)
   - [metadata-center](/projects/metadata-center.md)
   - [lark-alert](/projects/lark-alert.md)
+  - [logging-pipeline](/projects/logging-pipeline.md)
 - MCP-Server
   - [mcp-sql](/MCP-Server/mcp-sql.md)
